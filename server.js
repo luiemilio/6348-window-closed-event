@@ -15,7 +15,6 @@ function launchOpenFin() {
 	openfinLauncher.launchOpenFin({
 			configPath
 		})
-		.then(() => process.exit())
 		.catch(err => console.log(err));
 }
 
